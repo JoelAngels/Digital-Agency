@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Rozha One",serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 `;
 
@@ -22,6 +22,14 @@ padding-left: 50px;
     padding-right: 30px;
     padding-left: 30px;
 }
+`;
+
+export const Button = styled.button`
+border-radius: 4px;
+background: ${({primary}) => (primary ? "#4B59F7" : "#046FFB")};
+white-space: nowrap;
+padding: ${({big}) => (big ? "12px 64px" : "10px 20px")};
+color: #fff;
 `;
 
 
