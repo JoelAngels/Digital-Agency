@@ -45,7 +45,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/">
               <NavIcon />
-              Judah
+              Shiloh Tabernacle 
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
