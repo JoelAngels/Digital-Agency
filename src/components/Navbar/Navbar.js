@@ -24,7 +24,7 @@ const Navbar = () => {
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setButton(false); 
     } 
       else {
         setButton(true)
@@ -44,7 +44,7 @@ const Navbar = () => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/">
-              <NavIcon />
+              <NavIcon/>
               Shiloh Tabernacle 
             </NavLogo>
             <MobileIcon onClick={handleClick}>
