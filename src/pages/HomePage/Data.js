@@ -10,4 +10,9 @@ export const homeObjOne = {
   lightTextDesc: true,
   primary: true,
   buttonLabel: "Get Started",
+  img: require("../../images/svg-1.svg"),
+  alt: "Image",
+  start: "",
 };
+
+export default homeObjOne;

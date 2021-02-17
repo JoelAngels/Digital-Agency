@@ -1,15 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { InfoSec } from "./InfoSection.Elements";
 import { Container, Button } from "../../globalStyles";
+
 import {
+  InfoSec,
   InfoRow,
   InfoColumn,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
+  ImgWrapper,
+  Img,
 } from "./InfoSection.Elements";
+
 const InfoSection = ({
   lightBg,
   imgStart,
@@ -21,6 +25,9 @@ const InfoSection = ({
   lightTextDesc,
   primary,
   buttonLabel,
+  img,
+  alt,
+  start,
 }) => {
   return (
     <>
@@ -33,11 +40,16 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightText}>{description}</Subtitle>
                 <Link to="./sign-up">
-                  <Button big frontBig primary={primary}>
+                  <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
                 </Link>
               </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
