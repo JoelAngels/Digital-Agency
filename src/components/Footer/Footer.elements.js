@@ -46,7 +46,11 @@ export const Form = styled.form`
 
 export const FormInput = styled.input`
   padding: 10px 20px;
+<<<<<<< HEAD
   border-radius: 2px;
+=======
+  border-radius: 20px;
+>>>>>>> 54a1b3f9c14f897013da361c2a9427c7cf19bd22
   margin-right: 10px;
   outline: none;
   border: none;
@@ -62,6 +66,7 @@ export const FormInput = styled.input`
     margin: 0 0 16px 0;
   }
 `;
+<<<<<<< HEAD
 
 export const FooterLinksContainer = styled.div`
   width: 100%;
@@ -113,3 +118,5 @@ export const FooterLink = styled(Link)`
     transition: 0.3s ease-out;
   }
 `;
+=======
+>>>>>>> 54a1b3f9c14f897013da361c2a9427c7cf19bd22

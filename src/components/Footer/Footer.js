@@ -8,11 +8,14 @@ import {
   FooterSubText,
   Form,
   FormInput,
+<<<<<<< HEAD
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterLinksItems,
   FooterLinkTitle,
   FooterLink,
+=======
+>>>>>>> 54a1b3f9c14f897013da361c2a9427c7cf19bd22
 } from "./Footer.elements";
 
 const Footer = () => {
