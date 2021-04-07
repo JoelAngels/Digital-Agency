@@ -13,6 +13,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 999; //this goes above everything else
+  font-family: "Poppins", sans-serif;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -31,7 +32,6 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   display: flex;
   align-items: center;
-  /* font-family: "Rozha One", serif; */
 `;
 
 export const NavIcon = styled(FaMagento)`

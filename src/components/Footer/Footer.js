@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Button } from "../../globalStyles";
 
 import {
@@ -79,33 +79,22 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>ULTRA © 2020</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink
-                href="https://www.facebook.com/profile.php?id=100013647884230"
-                target="_blank"
-                aria-label="Facebook"
-              >
-                <FaFacebook />
+              <SocialIconLink>
+                <FaLinkedin
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/in/joel-angel-4b05141a3/"
+                    );
+                  }}
+                />
               </SocialIconLink>
-              <SocialIconLink
-                href="https://www.linkedin.com/in/joel-angel-4b05141a3/"
-                target="_blank"
-                aria-label="Linkedin"
-              >
-                <FaLinkedin />
-              </SocialIconLink>
-              <SocialIconLink
-                href="https://www.instagram.com/joel__angel/"
-                target="_blank"
-                aria-label="Instagram"
-              >
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink
-                href="https://twitter.com/_joelangel/"
-                target="_blank"
-                aria-label="Twitter"
-              >
-                <FaTwitter />
+
+              <SocialIconLink>
+                <FaGithub
+                  onClick={() => {
+                    window.open("https://github.com/JoelAngels");
+                  }}
+                />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

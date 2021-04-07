@@ -157,10 +157,12 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 120px;
+  cursor: pointer;
 `;
 
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+  cursor: pointer;
 `;
