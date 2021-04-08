@@ -20,7 +20,7 @@ export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   height: 80px;
-
+  font-family: "Poppins", sans-serif;
   ${Container}
 `;
 
@@ -95,6 +95,7 @@ export const NavLinks = styled(Link)`
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-family: "Poppins", sans-serif;
 
   @media screen and (max-width: 960px) {
     text-align: center;
@@ -116,6 +117,7 @@ export const NavItemBtn = styled.li`
     align-items: center;
     width: 100%;
     height: 120px;
+    font-family: "Poppins", sans-serif;
   }
 `;
 
@@ -129,4 +131,5 @@ export const NavBtnLink = styled(Link)`
   width: 100%;
   border: none;
   outline: none;
+  font-family: "Poppins", sans-serif;
 `;

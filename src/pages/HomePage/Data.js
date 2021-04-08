@@ -7,7 +7,7 @@ export const homeObjOne = {
   buttonLabel: "Get Started",
   description:
     "We help business owners increase their revenue.Our Team focuses on producing results. We offer unique specialist that can help you achieve your business goals.",
-  headline: "Lead Generation Specialist for Online Businesses",
+  headline: "Leading Generation Specialist for Online Businesses",
   lightText: true,
   topLine: "Marketing Agency",
   img: require("../../images/svg-1.svg").default,
@@ -58,8 +58,9 @@ export const homeObjFour = {
   lightTextDesc: true,
   buttonLabel: "Get Started",
   description:
-    "We help business owners increase their revenue.Our Team focuses on producing results. We offer unique specialist that can help you achieve your business goals.",
-  headline: "Lead Generation Specialist for Online Businesses",
+    "The last year has taken the idea of ‘what is possible?’ to a new level, as businesses everywhere adapt to a rapidly changing situation.",
+  headline:
+    "Digital transformation is no longer then distant end-state of your of your long term growth strategy",
   lightText: true,
   topLine: "Marketing Agency",
   img: require("../../images/svg-3.svg").default,

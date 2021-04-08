@@ -62,7 +62,12 @@ const Navbar = () => {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
-                    <Button primary>SIGN UP</Button>
+                    <Button
+                      primary
+                      style={{ fontFamily: "Poppins, sans-serif" }}
+                    >
+                      SIGN UP
+                    </Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to="/sign-up">

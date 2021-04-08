@@ -46,6 +46,7 @@ export const TopLine = styled.h1`
   line-height: 16px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
 `;
 
 export const Heading = styled.h1`

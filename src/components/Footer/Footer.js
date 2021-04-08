@@ -75,9 +75,9 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">
               <SocialIcon />
-              ULTRA
+              JoelAngels
             </SocialLogo>
-            <WebsiteRights>ULTRA © 2020</WebsiteRights>
+            <WebsiteRights>Joel Angel © 2021</WebsiteRights>
             <SocialIcons>
               <SocialIconLink>
                 <FaLinkedin
