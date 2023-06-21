@@ -75,9 +75,10 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">
               <SocialIcon />
-              JoelAngels
+              {/* JoelAngels */}
+              Okiki Amayo
             </SocialLogo>
-            <WebsiteRights>Joel Angel © 2021</WebsiteRights>
+            <WebsiteRights>Okiki Amayo © 2023</WebsiteRights>
             <SocialIcons>
               <SocialIconLink>
                 <FaLinkedin
